@@ -32,5 +32,17 @@ def beautifulprint():
 
     for i in range(len(grid[0])):
         for j in range(len(grid)):
-            print(grid[j][i],end='')
+            print(grid[j][i], end='')
         print()
+
+#字典练习
+def Dictionary(op):
+    dic = {'rope': 1, 'torch': 5, 'gold': 200}
+    op = int(input())
+    num = 0
+    if op == 1:
+        print('Inventory:')
+        for i, j in dic.items():
+            print(str(j)+' '+str(i))
+            num += j
+        print('Total number of items:' + str(num))
