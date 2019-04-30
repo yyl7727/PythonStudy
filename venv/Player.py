@@ -24,4 +24,4 @@ elif operation == 3:
     Class.beautifulprint()
 
 elif operation == 4:
-    Class.Dictionary(1)
+    Class.Dictionary(2)
