@@ -25,3 +25,6 @@ elif operation == 3:
 
 elif operation == 4:
     Class.Dictionary(2)
+
+elif operation == 5:
+    Class.stringexcerise()

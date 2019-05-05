@@ -63,3 +63,12 @@ def Dictionary(op):
             print(str(j) + ' ' + str(i))
             num += j
         print('Total number of items:' + str(num))
+
+
+def stringexcerise():
+    print('请输入一个字符串（仅限英文字符串）')
+    teststr = input()
+    if not teststr.isalpha():
+        print('你输入的什么jb？')
+    else:
+        print('你输入的很棒！')
